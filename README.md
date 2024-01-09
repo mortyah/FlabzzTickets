@@ -7,9 +7,10 @@ FlabzzTicketBot - discord bot, который планировался как к
 * 4. Сделать текст для всех настроек
 
 ## Как запустить проект
-* 1. Получи токен бота на сайте https://discord.com/developers/applications (Создай Application, перейди в нее, после переброса на страницу Application перейти во вкладку Bot, нажми reset token, скопируй Token), и вставь этот токен в config/.env
-* 2. Установить модули (app/config/requirements.txt, bot/config/requirements.txt).
-* 3. Корневая папка запуска - FlabzzTickets, 1. Запустить сервер 2. Запустить бота. запуск: python app/server.py, python bot/main.py
+* Гитхаб не позволяет загрузить .env файл, его нужно создать в директории config/.env
+* Получи токен бота на сайте https://discord.com/developers/applications (Создай Application, перейди в нее, после переброса на страницу Application перейти во вкладку Bot, нажми reset token, скопируй Token), и вставь этот токен в config/.env в объект TEST_TOKEN
+* Установить модули (app/config/requirements.txt, bot/config/requirements.txt).
+* Корневая папка запуска - FlabzzTickets, 1. Запустить сервер 2. Запустить бота. запуск: python app/server.py, python bot/main.py
 
 
 ## О боте
